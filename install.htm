@@ -10,6 +10,17 @@
   <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
   <link href="styles.css" rel="stylesheet">
     <title>Install</title>
+    <style>
+        *{
+            color: white;
+            position: relative;
+        
+        }
+        a{
+            color: white;
+        }
+       
+    </style>
 </head>
 
 <body>
@@ -51,31 +62,92 @@
     </div>
     </nav>
 
+    <div id="textBlock">
 
-        <div id="textBlock">
-        <h2>Installing Three.js</h2>
-        <p>
-          The easiest way to incorporate three.js into a project is by using CDNJS.
-          <br><br>
-          CDNJS is an open-source content delivery network (CDN) that hosts a wide range of web development libraries and frameworks. It provides developers 
-          with a convenient way to include popular JavaScript libraries, CSS frameworks, and other assets in their web projects without the need to download 
-          and host the files themselves.
-        </p>
+    <h2>Installing Three.js</h2>
 
-        <h3>Steps</h3>
-        <ol>
-          <li><h5>Navigate to the CDNJS website</h5>Go to cdnjs.com in your web browser.</li><br>
-          <li><h5>Search for Three.js</h5>In the search bar at the top of the page, type "three.js" and press Enter.</li><br>
-          <li><h5>Select the latest version</h5>You'll see a list of versions of Three.js. Choose the latest version by clicking on it. This will take you to the page for that specific version.</li><br>
-          <li><h5>Get the CDN link</h5>On the Three.js version page, you'll find a section labeled "Quick Start" or "Usage." Within that section, you'll see a CDN link. It will typically look something like this:
-          <img src="img/code.png"></li><br>
-          <li><h5>Navigate to the CDNJS website</h5>Go to cdnjs.com in your web browser.</li><br>
-          <li><h5>Paste the script tag in your HTML file</h5>Open your HTML file in a text editor or code editor of your choice. Paste the script tag you copied from CDNJS into the head section of your HTML file.</li><br>
-          <li><h5>Start using Three.js</h5>You're now ready to start using Three.js in your project.</li>
-        </ol>
-
+    <div class="row">
+        <div class="col-4">
+          <nav id="navbar-example3" class="navbar-dark bg-dark h-100 flex-column align-items-stretch pe-4 border-end">
+            <nav class="nav nav-pills flex-column">
+              <a class="nav-link" href="#item-1">CDN Method</a>
+              <nav class="nav nav-pills flex-column">
+                <a class="nav-link ms-3 my-1" href="#item-1-1">Include Three.js via CDN</a>
+                <a class="nav-link ms-3 my-1" href="#item-1-2">Start Coding</a>
+              </nav>
+              <a class="nav-link" href="#item-2">npm Method</a>
+              <nav class="nav nav-pills flex-column">
+                <a class="nav-link ms-3 my-1" href="#item-2-1">Install npm</a>
+                <a class="nav-link ms-3 my-1" href="#item-2-2">Create Project Directory</a>
+                <a class="nav-link ms-3 my-1" href="#item-2-3">Initialize npm</a>
+                <a class="nav-link ms-3 my-1" href="#item-2-4">Install Three.js</a>
+                <a class="nav-link ms-3 my-1" href="#item-2-5">Create Javascript File</a>
+                <a class="nav-link ms-3 my-1" href="#item-2-6">Import Three.js</a>
+              </nav>
+            </nav>
+          </nav>
         </div>
+   
 
+        <div class="col-8">
+          <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0">
+            <div id="item-1">
+              <h4>CDN Method</h4>
+              <p>Harnessing the power of Three.js for your web projects has never been easier, thanks to Content Delivery Networks (CDNs). By leveraging a CDN, you can swiftly integrate Three.js into your web applications without the hassle of managing dependencies locally. This method is ideal for quick prototypes, small projects, or when you prefer simplicity and speed in setting up your Three.js environment. Follow these straightforward steps to kickstart your Three.js journey using CDN:</p>
+            </div>
+            <br>
+            <div id="item-1-1">
+              <h5>1. Include Three.js via CDN</h5>
+              <p>Next, create an HTML file in your project directory where you'll develop your Three.js application. You can name this file as per your preference, such as index.html. Begin by including the Three.js library directly into your HTML file using a CDN link. This link provides access to the latest version of Three.js, hosted on a reliable CDN. Insert the following script tag in the head section of your HTML file:</p>
+              <img src="img/code.png" style="width:100%;"></li><br>
+              <p>With Three.js now included in your HTML file, you can start coding your Three.js scene within a script tag or an external JavaScript file linked to your HTML file. Utilize the powerful features of Three.js to create captivating 3D visuals, interactive animations, and immersive experiences tailored to your project requirements.</p>
+            </div>
+            <br>
+            <div id="item-1-2">
+              <h5>2. Start Coding</h5>
+              <p>Once you've written your Three.js code, save your HTML file and open it in a web browser to view your Three.js scene in action. Make sure to test your application across different browsers and devices to ensure compatibility and optimal performance. </p>
+            </div>
+            <br><br><br><br>
+            <div id="item-2">
+              <h4>npm Method</h4>
+              <p>For developers seeking robustness, scalability, and full control over their project dependencies, integrating Three.js via npm (Node Package Manager) is the way to go. By managing Three.js as a package within your project's ecosystem, you ensure version control, dependency resolution, and seamless integration with modern JavaScript workflows. Whether you're building complex 3D applications or immersive experiences, npm empowers you to efficiently manage your project's dependencies and unleash the full potential of Three.js. Dive into the npm method following these comprehensive steps to elevate your Three.js development experience:</p>
+            </div>
+            <br>
+            <div id="item-2-1">
+              <h5>1. Install npm</h5>
+              <p>Before getting started with npm, ensure that you have Node.js installed on your system. Node.js includes npm by default, allowing you to manage packages and dependencies effortlessly. If Node.js is not installed, download and install it from the official Node.js website.</p>
+            </div>
+            <br>
+            <div id="item-2-2">
+              <h5>2. Create a new project directory</h5>
+              <p>Once Node.js is installed, create a new directory for your Three.js project. You can name this directory according to your project's name or purpose, providing a dedicated space for organizing your project files.</p>
+            </div>
+            <br>
+            <div id="item-2-3">
+              <h5>3. Initialize npm</h5>
+              <p>Open your terminal or command prompt, navigate to your project directory, and run the following command to initialize npm: "npm init -y". This command generates a package.json file in your project directory, which serves as a manifest for your project's dependencies, scripts, and metadata.</p>
+            </div>
+            <br>
+            <div id="item-2-4">
+                <h5>4. Install Three.js</h5>
+                <p>Run the following command in your terminal to install Three.js as a dependency for your project: "npm install three". npm fetches the latest version of Three.js from the npm registry and installs it within your project's node_modules directory. This ensures that your project has access to the specified version of Three.js and its associated files.</p>
+              </div>
+              <br>
+          <div id="item-2-5">
+            <h5>5. Create your JavaScript file</h5>
+            <p>After installing Three.js, create a JavaScript file in your project directory where you'll write your Three.js code. You can name this file based on its purpose or functionality, such as main.js or app.js.</p>
+          </div>
+          <br>
+          <div id="item-2-6">
+            <h5>6. Import Three.js in your JavaScript file</h5>
+            <p>Create a JavaScript file in your project directory where you'll write your Three.js code.</p>
+            <img src="img/code2.png"><br>
+            <p>This statement imports the entire Three.js library as an ES6 module, allowing you to access its classes, functions, and utilities throughout your JavaScript code.</p>
+          </div>
+      </div>
+        </div>
+      </div>
+    </div>
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
