@@ -20,6 +20,7 @@
     .card {
   background-color: #333; /* Dark background color */
   color: #fff; /* Light text color */
+  height: 100%;
 }
 
 
@@ -28,17 +29,23 @@
 }
 
 .card-img-top {
-  height: 18rem; /* Set a fixed height for the images */
+  height: 16rem; /* Set a fixed height for the images */
   object-fit: cover; /* Ensure images maintain aspect ratio and cover the entire space */
 }
 
-.card-body {
-  border-top: 1px solid rgba(255, 255, 255, 0.125); /* Light border color */
+
+.btn {
+  background-color: rgb(89, 180, 195);
+  border: 0px;
 }
 
-.card-img-top {
-  height: 18rem; /* Set a fixed height for the images */
-  object-fit: cover; /* Ensure images maintain aspect ratio and cover the entire space */
+.btn:hover{
+  background-color: rgb(60, 122, 133) ;
+}
+
+.row{
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 
@@ -96,22 +103,21 @@
   
         
     <div id="textBlock">
-        <div class="row">
-          <div class="left">
+       
             <h2>Welcome to our Guide to Three.js!</h2>
             <p>
             Here we explore the Three.js library and provide educational resources and some examples for how to incorporate this library into your own web project. 
             This is for novice (or any level) front-end developers interested in the Three.js library!
             </p>
             <br>
-            <h4>First off, what even is Three.js?</h4>
+            <h5>First off, what even is Three.js?</h5>
             <p>
             Three.js is a JavaScript library for creating 3D web graphics within the web browser created by Ricardo Cabello using WebGL. 
             Using WebGL you can directly use the processing resources of your graphics card and create high-performance 2D and 3D computer graphics. 
             Programming WebGL directly from JavaScript to create and animate 3D scenes is a very complex process. Three.js is a library that makes this a lot easier!
             
-            <div class="left">
-              <h4>With Three.js you can:</h4>
+
+              <h5>With Three.js you can:</h5>
               <ul>
                 <li>Create simple and complex 3D geometries</li>
                 <li>Animate and move objects through a 3D scene</li>
@@ -122,19 +128,9 @@
                 <li>Work with your own custom shaders</li>  
                 <li>Create point clouds</li>
               </ul>
-            </div>
+
             </p>
-          </div>
-    
-          <div class="right">
-            <img src="img/400x300.svg" class="img-fluid">
-            <br><br>
-            <img src="img/400x300.svg" class="img-fluid">
-          </div>
-        </div>
-          </div>
-        </div>
-      </div>
+
 
       <div class="container" id="cardRow">
         <div class="row">
@@ -142,9 +138,9 @@
             <div class="card">
               <img src="img/400x300.svg" class="card-img-top img-fluid" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Card 1</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <button class="btn btn-primary">Button 1</button>
+                <h5 class="card-title">History of Three</h5>
+                <p class="card-text">Learn about where Three came from and who created it.</p>
+                <a href="history.htm" class="btn btn-dark" role="button">Learn More</a>
               </div>
             </div>
           </div>
@@ -152,9 +148,9 @@
             <div class="card">
               <img src="img/400x300.svg" class="card-img-top img-fluid" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Card 2</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <button class="btn btn-primary">Button 2</button>
+                <h5 class="card-title">Installing</h5>
+                <p class="card-text">Learn the steps to install three and incorporate it into your code.</p>
+                <a href="install.htm" class="btn btn-dark" role="button">Learn More</a>
               </div>
             </div>
           </div>
@@ -162,9 +158,9 @@
             <div class="card">
               <img src="img/400x300.svg" class="card-img-top img-fluid" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Card 3</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <button class="btn btn-primary">Button 3</button>
+                <h5 class="card-title">Using Three</h5>
+                <p class="card-text">A brief overview of the usage of Three.</p>
+                <a href="use.htm" class="btn btn-dark" role="button">Learn More</a>
               </div>
             </div>
           </div>

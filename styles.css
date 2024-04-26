@@ -36,7 +36,7 @@ h1, h2, h3, h4 {
 }
 
 h5 {
-  color: rgb(116, 226, 145);
+  color: rgb(185, 153, 241);
 }
 
 /* Image Gallery Styles */
@@ -80,8 +80,10 @@ h1{
 
 
 #textBlock {
-  margin: 20px;
-  padding: 40px;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 40px;
+  padding-bottom: 40px;
   color: white;
 }
 
@@ -112,4 +114,9 @@ h1{
   width: 100%;
   display:flex;
   gap: 20px;
+}
+
+.navbar-expand-lg {
+  margin-left: 10%;
+  margin-right: 10%;
 }
