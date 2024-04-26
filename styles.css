@@ -64,7 +64,7 @@ h5 {
   }
 }
 
-/* Footer Styles */
+
 .footer {
   margin: 0;
   padding: 20px; 
@@ -77,16 +77,14 @@ h1{
   font-size: 50pt;
   color:white;
 }
-/* landing page */
+
 
 #textBlock {
+  margin: 20px;
   padding: 40px;
   color: white;
 }
 
-.column {
-  float: left;
-}
 
 .left {
   width: 60%;
@@ -107,9 +105,10 @@ h1{
   object-fit: contain;
 }
 
-img {
+/*img {
   margin: 20px;
 }
+*/
 
 .wrapper {
   height: auto;
