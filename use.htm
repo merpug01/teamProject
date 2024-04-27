@@ -4,56 +4,20 @@
     <title>Page Title</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
-  <link href="styles.css" rel="stylesheet">
- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-	<title>Use</title>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<style>
+
+</style>
+
 </head>
 	
-<style>
-.vstack {
-  display: flex;
-  flex: 1 1 auto;
-  flex-direction: column;
-  align-self: stretch;
-}
-$accordion-padding-y:                     1rem;
-$accordion-padding-x:                     1.25rem;
-$accordion-color:                         var(--#{$prefix}body-color);
-$accordion-bg:                            var(--#{$prefix}body-bg);
-$accordion-border-width:                  var(--#{$prefix}border-width);
-$accordion-border-color:                  var(--#{$prefix}border-color);
-$accordion-border-radius:                 var(--#{$prefix}border-radius);
-$accordion-inner-border-radius:           subtract($accordion-border-radius, $accordion-border-width);
 
-$accordion-body-padding-y:                $accordion-padding-y;
-$accordion-body-padding-x:                $accordion-padding-x;
-
-$accordion-button-padding-y:              $accordion-padding-y;
-$accordion-button-padding-x:              $accordion-padding-x;
-$accordion-button-color:                  var(--#{$prefix}body-color);
-$accordion-button-bg:                     var(--#{$prefix}accordion-bg);
-$accordion-transition:                    $btn-transition, border-radius .15s ease;
-$accordion-button-active-bg:              var(--#{$prefix}primary-bg-subtle);
-$accordion-button-active-color:           var(--#{$prefix}primary-text-emphasis);
-
-// fusv-disable
-$accordion-button-focus-border-color:     $input-focus-border-color; // Deprecated in v5.3.3
-// fusv-enable
-$accordion-button-focus-box-shadow:       $btn-focus-box-shadow;
-
-$accordion-icon-width:                    1.25rem;
-$accordion-icon-color:                    $body-color;
-$accordion-icon-active-color:             $primary-text-emphasis;
-$accordion-icon-transition:               transform .2s ease-in-out;
-$accordion-icon-transform:                rotate(-180deg);
-
-$accordion-button-icon:         url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='#{$accordion-icon-color}' stroke-linecap='round' stroke-linejoin='round'><path d='M2 5L8 11L14 5'/></svg>");
-$accordion-button-active-icon:  url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='#{$accordion-icon-active-color}' stroke-linecap='round' stroke-linejoin='round'><path d='M2 5L8 11L14 5'/></svg>");
-</style>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: (5,5,5,.5);">
         <div class="container-fluid">
@@ -113,90 +77,83 @@ $accordion-button-active-icon:  url("data:image/svg+xml,<svg xmlns='http://www.w
                             The above steps outline a simplified explanation of how to utilize Three.js's robust library, and give you a foundation to begin exploring the library's potential.</p></li>
                         
                 </ol>
-
-	*/ <div id="v.stack">
 		
-		<div class="vstack gap-3">
- 	 	<div class="p-2">Make sure Three.js library is installed on your computer and create a project folder with the following files: index.html, style.css, and index.js. Import the Three.js library into the index.js file.</div>
- 		 <div class="p-2">Second item</div>
- 		 <div class="p-2">Third item</div>
 		
-	</div> 
-		
-		<div class="accordion" id="accordionExample">
-  <div class="accordion-item">
-    <h2 class="accordion-header">
-      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-        1. Setting Up:
-      </button>
-    </h2>
-    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        <strong>Make sure Three.js library is installed on your computer</strong> and create a project folder with the following files: index.html, style.css, and index.js. Import the Three.js library into the index.js file.
-      </div>
-    </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-        2. Creating the Scene:
-      </button>
-    </h2>
-    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        Define a Three.js scene, which serves as the container for all 3D objects.
-      </div>
-    </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-        3. Setting Up the Camera:
-      </button>
-    </h2>
-    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        Create a perspective camera, which acts as the viewer's eyes in the 3D world. Configure its field of view and aspect ratio.
-      </div>
-    </div>
-  </div>
-<div class="accordion-item">
-    <h2 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-        4. Adding Objects:
-      </button>
-    </h2>
-    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        Create 3D objects like cubes, spheres, or custom models using geometries and materials. Combine them into meshes and add them to the scene.
-      </div>
-    </div>
-  </div>
-<div class="accordion-item">
-    <h2 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-        5. Positioning Objects:
-      </button>
-    </h2>
-    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-       Adjust the position, rotation, and scale of objects within the scene.
-      </div>
-    </div>
-  </div>
-<div class="accordion-item">
-    <h2 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-        6. Animating:
-      </button>
-    </h2>
-    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-       Implement animations by continuously updating the scene and objects' properties, such as rotation or position. 
-	The above steps outline a simplified explanation of how to utilize Three.js's robust library, and give you a foundation to begin exploring the library's potential.
-      </div>
-    </div>
-  </div>
+<div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        1. Setting Up:
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>Make sure Three.js library is installed on your computer</strong> and create a project folder with the following files: index.html, style.css, and index.js. Import the Three.js library into the index.js file.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        2. Creating the Scene:
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Define a Three.js scene, which serves as the container for all 3D objects.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        3. Setting Up the Camera:
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Create a perspective camera, which acts as the viewer's eyes in the 3D world. Configure its field of view and aspect ratio.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        4. Adding Objects:
+                    </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Create 3D objects like cubes, spheres, or custom models using geometries and materials. Combine them into meshes and add them to the scene.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                        5. Positioning Objects:
+                    </button>
+                </h2>
+                <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Adjust the position, rotation, and scale of objects within the scene.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                        6. Animating:
+                    </button>
+                </h2>
+                <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Implement animations by continuously updating the scene and objects' properties, such as rotation or position. 
+                        The above steps outline a simplified explanation of how to utilize Three.js's robust library, and give you a foundation to begin exploring the library's potential.
+                    </div>
+                </div>
+            </div>
+        </div>
 </div>
 	
 
